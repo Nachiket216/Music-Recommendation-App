@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+.App {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+body {
+  text-align: center;
+  background: #5433ff;
+  color: white;
+}
+
+h1 {
+  font-size: 2.5rem;
+  /* color: #e65c00 ; */
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+button {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #f9d423;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  padding: 0.8rem 1.6rem;
+  font-size: large;
+  border: 1px solid black;
+  margin: 1rem 0.3rem;
+}
+button:hover {
+  background: linear-gradient(to bottom, #e65c00, #f9d423);
+}
+
+ul {
+  padding-inline-start: "0";
+  text-align: center;
+}
+
+.display {
+  text-align: left;
+}
+li {
+  background: linear-gradient(to bottom, #e65c00, #f9d423);
+  color: black;
+  list-style: none;
+  padding: 1rem;
+  border: 1px solid #d1d5db;
+  width: 87%;
+  margin: 1.5rem 0rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+li:hover {
+  background: #f9d423;
+}
+
+.song-name {
+  font-size: larger;
+}
+
+.song-rating {
+}
